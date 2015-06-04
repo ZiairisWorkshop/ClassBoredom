@@ -39,7 +39,29 @@ elif Degree > 123.75 and Degree <= 146.25:
     print("This direction is North West.")
 
 elif Degree > 146.25 and Degree <= 168.75:
+    print("This direction is North West West.")
+
+elif Degree > 168.75 and Degree <= 191.25:
     print("This direction is West.")
 
-elif Degree > 168.75 and Degree <= 
+elif Degree > 191.25 and Degree <= 213.75:
+    print("This direction is South West West.")
+
+elif Degree > 213.75 and Degree <= 236.25:
+    print("This direction is South West.")
+
+elif Degree > 236.25 and Degree <= 258.75:
+    print("This direction is South South West.")
+
+elif Degree > 258.75 and Degree <= 281.25:
+    print("This direction is South.")
+
+elif Degree > 281.25 and Degree <= 303.75:
+    print("This direction is South South East.")
+
+elif Degree > 303.75 and Degree <= 326.25:
+    print("This direction is South East.")
+
+elif Degree > 326.25 and Degree <= 348.75:
+    print("This direction is South East East.")
 

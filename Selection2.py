@@ -65,3 +65,7 @@ elif Degree > 303.75 and Degree <= 326.25:
 elif Degree > 326.25 and Degree <= 348.75:
     print("This direction is South East East.")
 
+    # The User should never see this line...
+else:
+    print("You are completely lost. Perhaps you should be looking up a survival guide instead...")
+

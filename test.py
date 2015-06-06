@@ -12,9 +12,13 @@ Time = 892
 
 # These variables are new.
 PayRate = 5
+Work = "False"
 
-# Charima and Town Rep calculate PayRate Change
+# Charisma and Town Rep calculate PayRate Change
 PayRate = Payrate*(TownRep/2)
 
 if Charisma >5:
-    Payrate = Payrate * (Charima/5)
+    Payrate = Payrate * (Charisma/5)
+
+# define work
+def

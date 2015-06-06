@@ -21,4 +21,4 @@ if Charisma >5:
     Payrate = Payrate * (Charisma/5)
 
 # define work
-def
+def working(Charisma, Stamina, Energy, Coins, TownRep, Time)
